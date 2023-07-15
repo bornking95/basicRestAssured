@@ -21,6 +21,7 @@ public class GetBooking {
 		.then()
 			.log()
 			.all()
+	
 			.statusCode(200);
 	}
 }
